@@ -11,7 +11,7 @@ public class VrMovement : MonoBehaviour {
 	}
 
 	void Update () {
-		float distance = Input.GetAxis("Mouse Y");
+		float distance = Input.GetAxis("Vertical");
 		if (distance > 0) {
 			transform.position += (transform.forward*Speed) * Time.deltaTime;
 		}
