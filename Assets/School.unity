@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 66197248}
-          m_MethodName: FadeIn
+          m_MethodName: getInputs
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -219,8 +219,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: ' Bleistift'
-  text: {fileID: 1406080777}
-  canvas: {fileID: 1099435830}
 --- !u!1 &80449483
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,6 +228,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 80449484}
+  - component: {fileID: 80449485}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -255,6 +254,20 @@ Transform:
   m_Father: {fileID: 1845975919}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &80449485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 80449483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d266bb6ec7fc704889c46ecd561f2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlMethod: 0
+  Speed: 3
+  blinkImage: {fileID: 879174848}
 --- !u!1 &110813205
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,7 +677,6 @@ GameObject:
   - component: {fileID: 159647894}
   - component: {fileID: 159647893}
   - component: {fileID: 159647892}
-  - component: {fileID: 159647891}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -688,23 +700,6 @@ Transform:
   m_Father: {fileID: 80449484}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &159647891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114161738116804648, guid: e764d13594b79e847a47fe70061cf4fa,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 159647889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d266bb6ec7fc704889c46ecd561f2a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controlMethod: 0
-  Speed: 1
-  facing: {fileID: 159647890}
-  blinkImage: {fileID: 879174848}
-  camera: {fileID: 159647896}
 --- !u!114 &159647892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -983,8 +978,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stuhl
-  text: {fileID: 1351748095}
-  canvas: {fileID: 889039127}
 --- !u!1 &276917650
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,8 +1085,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stuhl
-  text: {fileID: 138808679}
-  canvas: {fileID: 1681850408}
 --- !u!1 &289582795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1201,8 +1192,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stuhl
-  text: {fileID: 1977134852}
-  canvas: {fileID: 2070108518}
 --- !u!1001 &296838288
 Prefab:
   m_ObjectHideFlags: 0
@@ -1452,8 +1441,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stuhl
-  text: {fileID: 952054614}
-  canvas: {fileID: 1861161085}
 --- !u!1 &314600303
 GameObject:
   m_ObjectHideFlags: 0
@@ -2613,8 +2600,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Uhr
-  text: {fileID: 1625139524}
-  canvas: {fileID: 739811700}
 --- !u!1 &616102317
 GameObject:
   m_ObjectHideFlags: 0
@@ -3152,8 +3137,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: "Wei\xDFwandtafel "
-  text: {fileID: 1516509007}
-  canvas: {fileID: 1144385063}
 --- !u!1 &663204729
 GameObject:
   m_ObjectHideFlags: 0
@@ -4272,8 +4255,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stuhl
-  text: {fileID: 567452512}
-  canvas: {fileID: 774818442}
 --- !u!1 &716150519
 GameObject:
   m_ObjectHideFlags: 0
@@ -4552,8 +4533,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Tisch
-  text: {fileID: 619040890}
-  canvas: {fileID: 1638054118}
 --- !u!4 &734587354 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 9c4269fd4c15a1d489130bc68616ee42, type: 3}
@@ -4782,8 +4761,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stuhl
-  text: {fileID: 696498973}
-  canvas: {fileID: 1142354754}
 --- !u!1 &770497754
 GameObject:
   m_ObjectHideFlags: 0
@@ -5189,8 +5166,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stuhl
-  text: {fileID: 1755108964}
-  canvas: {fileID: 1786467942}
 --- !u!1001 &832406418
 Prefab:
   m_ObjectHideFlags: 0
@@ -5376,8 +5351,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stift
-  text: {fileID: 674127532}
-  canvas: {fileID: 558609065}
 --- !u!1 &858624066
 GameObject:
   m_ObjectHideFlags: 0
@@ -6051,8 +6024,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Apfel
-  text: {fileID: 679189697}
-  canvas: {fileID: 394440143}
 --- !u!1 &930669351
 GameObject:
   m_ObjectHideFlags: 0
@@ -6917,8 +6888,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stuhl
-  text: {fileID: 1356497432}
-  canvas: {fileID: 329565385}
 --- !u!1 &1043445810
 GameObject:
   m_ObjectHideFlags: 0
@@ -7104,40 +7073,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Tabellen
-  text: {fileID: 680818628}
-  canvas: {fileID: 624753557}
---- !u!1 &1055645296 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100000, guid: 9c4269fd4c15a1d489130bc68616ee42, type: 3}
-  m_PrefabInternal: {fileID: 936218113}
---- !u!114 &1055645298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1055645296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a21c13609138e9349a469844918b0670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  word: 
-  text: {fileID: 0}
-  canvas: {fileID: 0}
---- !u!114 &1055645299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1055645296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a21c13609138e9349a469844918b0670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  word: 
-  text: {fileID: 0}
-  canvas: {fileID: 0}
 --- !u!1001 &1058714133
 Prefab:
   m_ObjectHideFlags: 0
@@ -7879,8 +7814,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Tabellen
-  text: {fileID: 1690404057}
-  canvas: {fileID: 991174156}
 --- !u!1 &1165335056
 GameObject:
   m_ObjectHideFlags: 0
@@ -8091,8 +8024,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Tasse
-  text: {fileID: 949062885}
-  canvas: {fileID: 1882896189}
 --- !u!1 &1237807567
 GameObject:
   m_ObjectHideFlags: 0
@@ -8200,8 +8131,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Schlepptop
-  text: {fileID: 420445252}
-  canvas: {fileID: 700392153}
 --- !u!1 &1247005292
 GameObject:
   m_ObjectHideFlags: 0
@@ -8800,8 +8729,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Tabellen
-  text: {fileID: 979383039}
-  canvas: {fileID: 110813208}
 --- !u!1 &1332353060
 GameObject:
   m_ObjectHideFlags: 0
@@ -9139,8 +9066,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stuhl
-  text: {fileID: 896251192}
-  canvas: {fileID: 969696812}
 --- !u!1001 &1348285421
 Prefab:
   m_ObjectHideFlags: 0
@@ -10904,8 +10829,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stuhl
-  text: {fileID: 1043445812}
-  canvas: {fileID: 1342853286}
 --- !u!1 &1655248107
 GameObject:
   m_ObjectHideFlags: 0
@@ -10917,7 +10840,6 @@ GameObject:
   - component: {fileID: 1655248108}
   - component: {fileID: 1655248111}
   - component: {fileID: 1655248110}
-  - component: {fileID: 1655248109}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -10933,7 +10855,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1655248107}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 574, y: 261.5, z: 0}
+  m_LocalPosition: {x: 435.5, y: 210, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 879174847}
@@ -10945,20 +10867,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1655248109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1655248107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a21c13609138e9349a469844918b0670, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  word: 
-  text: {fileID: 0}
-  canvas: {fileID: 0}
 --- !u!114 &1655248110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11179,8 +11087,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stuhl
-  text: {fileID: 1373062411}
-  canvas: {fileID: 621437029}
 --- !u!1001 &1675951857
 Prefab:
   m_ObjectHideFlags: 0
@@ -11743,8 +11649,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Stuhl
-  text: {fileID: 509772579}
-  canvas: {fileID: 813912634}
 --- !u!1 &1786467939
 GameObject:
   m_ObjectHideFlags: 0
@@ -12300,8 +12204,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Papier
-  text: {fileID: 1926914136}
-  canvas: {fileID: 1962924723}
 --- !u!1001 &1923835783
 Prefab:
   m_ObjectHideFlags: 0

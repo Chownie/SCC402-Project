@@ -10,12 +10,12 @@ public class VrMovement : MonoBehaviour {
 	public ControlMethod controlMethod;
 
 	public float Speed = 1.0f;
-	public Transform facing;
+	private Transform facing;
 
 	public Image blinkImage;
 
-	public Camera camera;
-	void SmoothControl() {
+	private Camera cam;
+	/*void SmoothControl() {
 		float distance = Input.GetAxis("Vertical"); 
 		if (distance > 0.3) {
 			transform.position += (facing.forward*Speed) * Time.deltaTime;
@@ -24,7 +24,7 @@ public class VrMovement : MonoBehaviour {
 			transform.position -= (facing.forward*Speed) * Time.deltaTime;
 		}
 		transform.position = new Vector3(transform.position.x, 6f, transform.position.z);
-	}
+	}*/
 
 	void BlinkControl() {
 		/*if(Input.GetKeyDown(KeyCode.JoystickButton3)) {
@@ -39,12 +39,22 @@ public class VrMovement : MonoBehaviour {
 	}
 
 	void Start() {
-		camera = facing.gameObject.GetComponent<Camera>();
+		cam = GetComponentInChildren<Camera>();
+		facing = cam.transform;
 	}
 
 	void Update () {
+		float distance = Input.GetAxis("Vertical"); 
+		if (distance > 0.3) {
+			transform.position += (facing.forward*Speed) * Time.deltaTime;
+		}
+		if (distance < -0.3) {
+			transform.position -= (facing.forward*Speed) * Time.deltaTime;
+		}
+		transform.position = new Vector3(transform.position.x, 6f, transform.position.z);
+		
 		if(controlMethod == ControlMethod.Smooth) {
-			SmoothControl();
+			
 		}
 		if(controlMethod == ControlMethod.Blink) {
 			BlinkControl();

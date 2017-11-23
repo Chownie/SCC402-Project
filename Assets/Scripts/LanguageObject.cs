@@ -5,11 +5,13 @@ using UnityEngine.UI;
 
 public class LanguageObject : MonoBehaviour {
 	public string word = "";
-	public Text text;
-	public CanvasGroup canvas;
-	GameObject cam;
+	private Text text;
+	private CanvasGroup canvas;
+	private GameObject cam;
 
 	void Start() {
+		canvas = GetComponentInChildren<CanvasGroup>();
+		text = canvas.transform.GetComponentInChildren<Text>();
 		text.text = word;
 		cam = GameObject.Find("Main Camera");
 	}

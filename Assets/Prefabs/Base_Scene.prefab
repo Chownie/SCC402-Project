@@ -222,6 +222,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4522400200871878}
+  - component: {fileID: 114141268512229712}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -381,7 +382,6 @@ GameObject:
   - component: {fileID: 81655048877483414}
   - component: {fileID: 114384490105548244}
   - component: {fileID: 114504574539614218}
-  - component: {fileID: 114161738116804648}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3681,8 +3681,8 @@ MeshRenderer:
   m_GameObject: {fileID: 1866363889194088}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4600,8 +4600,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Tisch
-  text: {fileID: 114712796625249840}
-  canvas: {fileID: 225868187113228492}
+--- !u!114 &114141268512229712
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1126142858321778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d266bb6ec7fc704889c46ecd561f2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlMethod: 0
+  Speed: 1
+  blinkImage: {fileID: 114414931680251050}
 --- !u!114 &114141422006145602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4650,22 +4662,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114161738116804648
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1245279906949308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d266bb6ec7fc704889c46ecd561f2a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controlMethod: 0
-  Speed: 1
-  facing: {fileID: 4621501966642050}
-  blinkImage: {fileID: 114414931680251050}
-  camera: {fileID: 20377019063255596}
 --- !u!114 &114164288427630722
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5332,8 +5328,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   word: Apfel
-  text: {fileID: 114826777752637316}
-  canvas: {fileID: 225652695719743624}
 --- !u!114 &114956445641482326
 MonoBehaviour:
   m_ObjectHideFlags: 1
