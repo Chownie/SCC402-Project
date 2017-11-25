@@ -4,40 +4,33 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class LanguageObject : MonoBehaviour {
+	public TranslationObject.ApplicableVerbs verbs;
+	public string gender = "";
 	public string word = "";
-	private Text text;
-	private CanvasGroup canvas;
-	private GameObject cam;
+	private PlayerController player;
 
 	void Start() {
-		canvas = GetComponentInChildren<CanvasGroup>();
-		text = canvas.transform.GetComponentInChildren<Text>();
-		text.text = word;
-		cam = GameObject.Find("Main Camera");
-	}
-
-	void Update () {
-		canvas.transform.rotation = Quaternion.LookRotation(canvas.transform.position - cam.transform.position);
+		player = GameObject.Find("Player").GetComponent<PlayerController>();
 	}
 
 	public void getInputs() {
-		text.text = "";
-		text.text += "0: " +Input.GetKey(KeyCode.JoystickButton0).ToString() + "\n";
-		text.text += "1: " +Input.GetKey(KeyCode.JoystickButton1).ToString() + "\n";
-		text.text += "2: " +Input.GetKey(KeyCode.JoystickButton2).ToString() + "\n";
-		text.text += "3: " +Input.GetKey(KeyCode.JoystickButton3).ToString() + "\n";
-		text.text += "4: " +Input.GetKey(KeyCode.JoystickButton4).ToString() + "\n";
-		text.text += "5: " +Input.GetKey(KeyCode.JoystickButton5).ToString() + "\n";
-		text.text += "Horizontal: " + Input.GetAxis("Horizontal") + "\n";
-		text.text += "Vertical: " + Input.GetAxis("Vertical");
+		word = "";
+		word += "0: " +Input.GetKey(KeyCode.JoystickButton0).ToString() + "\n";
+		word += "1: " +Input.GetKey(KeyCode.JoystickButton1).ToString() + "\n";
+		word += "2: " +Input.GetKey(KeyCode.JoystickButton2).ToString() + "\n";
+		word += "3: " +Input.GetKey(KeyCode.JoystickButton3).ToString() + "\n";
+		word += "4: " +Input.GetKey(KeyCode.JoystickButton4).ToString() + "\n";
+		word += "5: " +Input.GetKey(KeyCode.JoystickButton5).ToString() + "\n";
+		word += "Horizontal: " + Input.GetAxis("Horizontal") + "\n";
+		word += "Vertical: " + Input.GetAxis("Vertical");
 		FadeIn();
 	}
 
 	public void FadeIn() {
-		canvas.alpha = 1;
+		player.Show(word, gender, verbs);
 	}
 
 	public void FadeOut() {
-		canvas.alpha = 0;
+		player.Hide();
 	}
 }

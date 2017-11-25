@@ -3,28 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class VrMovement : MonoBehaviour {
+public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	public enum ControlMethod{Smooth, Blink};
-
 	public ControlMethod controlMethod;
-
 	public float Speed = 1.0f;
-	private Transform facing;
-
-	public Image blinkImage;
-
+	
 	private Camera cam;
-	/*void SmoothControl() {
+	private CanvasGroup group;
+
+	[SerializeField]
+	private Text wordText;
+	[SerializeField]
+	private Text genderText;
+	[SerializeField]
+	private Text verbsText;
+
+
+	// Resources
+	TranslationObject i18n;
+
+	void SmoothControl() {
 		float distance = Input.GetAxis("Vertical"); 
 		if (distance > 0.3) {
-			transform.position += (facing.forward*Speed) * Time.deltaTime;
+			transform.position += (cam.transform.forward*Speed) * Time.deltaTime;
 		}
 		if (distance < -0.3) {
-			transform.position -= (facing.forward*Speed) * Time.deltaTime;
+			transform.position -= (cam.transform.forward*Speed) * Time.deltaTime;
 		}
 		transform.position = new Vector3(transform.position.x, 6f, transform.position.z);
-	}*/
+	}
 
 	void BlinkControl() {
 		/*if(Input.GetKeyDown(KeyCode.JoystickButton3)) {
@@ -39,22 +47,28 @@ public class VrMovement : MonoBehaviour {
 	}
 
 	void Start() {
+		i18n = new TranslationObject("DE");
 		cam = GetComponentInChildren<Camera>();
-		facing = cam.transform;
+		group = cam.GetComponentInChildren<CanvasGroup>();
+	}
+
+	public void Show(string text, string gender, TranslationObject.ApplicableVerbs verbs) {
+		wordText.text = text;
+		genderText.text = gender;
+		verbsText.text = "";
+		foreach (string verb in i18n.GetVerbs(verbs)) {
+			verbsText.text += verb + "\n";
+		}
+		group.alpha = 1;
+	}
+
+	public void Hide() {
+		group.alpha = 0;
 	}
 
 	void Update () {
-		float distance = Input.GetAxis("Vertical"); 
-		if (distance > 0.3) {
-			transform.position += (facing.forward*Speed) * Time.deltaTime;
-		}
-		if (distance < -0.3) {
-			transform.position -= (facing.forward*Speed) * Time.deltaTime;
-		}
-		transform.position = new Vector3(transform.position.x, 6f, transform.position.z);
-		
 		if(controlMethod == ControlMethod.Smooth) {
-			
+			SmoothControl();
 		}
 		if(controlMethod == ControlMethod.Blink) {
 			BlinkControl();

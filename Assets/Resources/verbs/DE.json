@@ -1,0 +1,13 @@
+{
+  "None": [],
+  "Food" : [
+    "essen",
+    "kochen",
+    "backen"
+  ],
+  "Liquid" : [
+    "trinken",
+    "gießen",
+    "schwimmen"
+  ]
+}
