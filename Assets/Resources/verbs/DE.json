@@ -9,5 +9,10 @@
     "trinken",
     "gießen",
     "schwimmen"
+  ],
+  "Furniture" : [
+    "bauen",
+    "sitzen",
+    "kaufen"
   ]
 }

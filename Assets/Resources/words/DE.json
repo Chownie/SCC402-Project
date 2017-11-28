@@ -1,0 +1,30 @@
+{
+    "apple": {
+        "gender": "m",
+        "name": "apfel"
+    },
+    "cup": {
+        "gender": "f",
+        "name": "tasse"
+    },
+    "desk": {
+        "gender": "m",
+        "name": "schreibtisch"
+    },
+    "mug": {
+        "gender": "m",
+        "name": "becher"
+    },
+    "pen": {
+        "gender": "m",
+        "name": "kuli"
+    },
+    "pencil": {
+        "gender": "m",
+        "name": "bleistift"
+    },
+    "table": {
+        "gender": "m",
+        "name": "tisch"
+    }
+}

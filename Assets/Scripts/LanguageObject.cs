@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Collider))]
 public class LanguageObject : MonoBehaviour {
 	public TranslationObject.ApplicableVerbs verbs;
-	public string gender = "";
 	public string word = "";
 	private PlayerController player;
 
@@ -21,13 +21,11 @@ public class LanguageObject : MonoBehaviour {
 		word += "3: " +Input.GetKey(KeyCode.JoystickButton3).ToString() + "\n";
 		word += "4: " +Input.GetKey(KeyCode.JoystickButton4).ToString() + "\n";
 		word += "5: " +Input.GetKey(KeyCode.JoystickButton5).ToString() + "\n";
-		word += "Horizontal: " + Input.GetAxis("Horizontal") + "\n";
-		word += "Vertical: " + Input.GetAxis("Vertical");
 		FadeIn();
 	}
 
 	public void FadeIn() {
-		player.Show(word, gender, verbs);
+		player.Show(word, verbs);
 	}
 
 	public void FadeOut() {
