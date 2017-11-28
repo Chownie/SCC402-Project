@@ -8,7 +8,9 @@ public class PlayerController : MonoBehaviour {
 	public enum ControlMethod{Smooth, Blink};
 	public ControlMethod controlMethod;
 	public float Speed = 1.0f;
-	
+
+	private bool popup = true;
+
 	private Camera cam;
 	private CanvasGroup group;
 
@@ -18,7 +20,6 @@ public class PlayerController : MonoBehaviour {
 	private Text genderText;
 	[SerializeField]
 	private Text verbsText;
-
 
 	// Resources
 	TranslationObject i18n;
@@ -52,13 +53,24 @@ public class PlayerController : MonoBehaviour {
 		group = cam.GetComponentInChildren<CanvasGroup>();
 	}
 
+	public bool TogglePopup() {
+		Debug.Log("Toggling popups");
+		this.popup = !this.popup;
+		return this.popup;
+	}
+
 	public void Show(string text, string gender, TranslationObject.ApplicableVerbs verbs) {
-		wordText.text = text;
-		genderText.text = gender;
+		if (!this.popup) {
+			Debug.Log("No popups for you!");
+			return;
+		}
+		wordText.text = i18n.GetLocalizedString(text);
+		genderText.text = i18n.GetLocalizedGender(text);
 		verbsText.text = "";
 		foreach (string verb in i18n.GetVerbs(verbs)) {
 			verbsText.text += verb + "\n";
 		}
+		verbsText.text = verbsText.text.TrimEnd("\n".ToCharArray());
 		group.alpha = 1;
 	}
 

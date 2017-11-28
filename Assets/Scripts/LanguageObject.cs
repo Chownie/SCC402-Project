@@ -21,8 +21,6 @@ public class LanguageObject : MonoBehaviour {
 		word += "3: " +Input.GetKey(KeyCode.JoystickButton3).ToString() + "\n";
 		word += "4: " +Input.GetKey(KeyCode.JoystickButton4).ToString() + "\n";
 		word += "5: " +Input.GetKey(KeyCode.JoystickButton5).ToString() + "\n";
-		word += "Horizontal: " + Input.GetAxis("Horizontal") + "\n";
-		word += "Vertical: " + Input.GetAxis("Vertical");
 		FadeIn();
 	}
 
