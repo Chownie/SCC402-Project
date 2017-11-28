@@ -2003,6 +2003,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlMethod: 0
   Speed: 3
+  StaticHeight: 6
+  pointer: {fileID: 1739412796}
   wordText: {fileID: 341799198}
   genderText: {fileID: 1884315201}
   verbsText: {fileID: 2073353112}

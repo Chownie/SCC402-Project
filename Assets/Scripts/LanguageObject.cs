@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Collider))]
 public class LanguageObject : MonoBehaviour {
 	public TranslationObject.ApplicableVerbs verbs;
 	public string word = "";

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
@@ -8,12 +9,15 @@ public class PlayerController : MonoBehaviour {
 	public enum ControlMethod{Smooth, Blink};
 	public ControlMethod controlMethod;
 	public float Speed = 1.0f;
+	public float StaticHeight = 6.0f;
 
 	private bool popup = true;
 
 	private Camera cam;
 	private CanvasGroup group;
 
+	[SerializeField]
+	private GvrReticlePointer pointer;
 	[SerializeField]
 	private Text wordText;
 	[SerializeField]
@@ -32,19 +36,16 @@ public class PlayerController : MonoBehaviour {
 		if (distance < -0.3) {
 			transform.position -= (cam.transform.forward*Speed) * Time.deltaTime;
 		}
-		transform.position = new Vector3(transform.position.x, 6f, transform.position.z);
+		transform.position = new Vector3(transform.position.x, StaticHeight, transform.position.z);
 	}
 
 	void BlinkControl() {
-		/*if(Input.GetKeyDown(KeyCode.JoystickButton3)) {
-			Ray ray = camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
-			RaycastHit hit;
-			if(Physics.Raycast(ray, out hit)) {
-				blinkImage.CrossFadeAlpha(1.0f, 0.25f, false);
-				transform.position = hit.point;
-				blinkImage.CrossFadeAlpha(0.0f, 0.25f, false);
+		if(Input.GetKeyDown(KeyCode.JoystickButton0)) {
+			RaycastResult res = pointer.CurrentRaycastResult;
+			if(res.gameObject.tag == "floor") {
+				transform.position = new Vector3(res.worldPosition.x, StaticHeight, res.worldPosition.z);
 			}
-		}*/
+		}
 	}
 
 	void Start() {
