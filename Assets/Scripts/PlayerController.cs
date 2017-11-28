@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour {
 		return this.popup;
 	}
 
-	public void Show(string text, string gender, TranslationObject.ApplicableVerbs verbs) {
+	public void Show(string text, TranslationObject.ApplicableVerbs verbs) {
 		if (!this.popup) {
 			Debug.Log("No popups for you!");
 			return;

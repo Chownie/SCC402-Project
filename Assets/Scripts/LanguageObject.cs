@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class LanguageObject : MonoBehaviour {
 	public TranslationObject.ApplicableVerbs verbs;
-	public string gender = "";
 	public string word = "";
 	private PlayerController player;
 
@@ -25,7 +24,7 @@ public class LanguageObject : MonoBehaviour {
 	}
 
 	public void FadeIn() {
-		player.Show(word, gender, verbs);
+		player.Show(word, verbs);
 	}
 
 	public void FadeOut() {
