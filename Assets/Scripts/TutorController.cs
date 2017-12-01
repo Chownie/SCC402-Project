@@ -21,11 +21,21 @@ public class TutorController : MonoBehaviour {
 	private bool boost = false;
 	private PlayerController player;
 
+	[SerializeField]
+	private bool interacting = false;
+
+	private LanguageObject[] sceneObjects;
+
 	// Use this for initialization
 	void Start () {
 		player = GameObject.Find("/Base_Scene/Player").GetComponent<PlayerController>();
+		
 	}
 	
+	public void SetInteracting(bool input) {
+		this.interacting = input;
+	}
+
 	void FaceMode() {
 
 	}

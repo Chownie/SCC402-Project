@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 794475d54dc930549beaccd5fa6d8dd0
+timeCreated: 1511452579
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: floor_square_32
+    100002: //RootNode
+    100004: roof_square_36
+    100006: roof_straight_33
+    100008: wall_corner_0
+    100010: wall_corner_28
+    100012: wall_corner_29
+    100014: wall_corner_30
+    100016: wall_corner_31
+    100018: wall_corner_4
+    100020: wall_corner_8
+    100022: wall_corner_9
+    100024: wall_straight_1
+    100026: wall_straight_10
+    100028: wall_straight_11
+    100030: wall_straight_12
+    100032: wall_straight_13
+    100034: wall_straight_14
+    100036: wall_straight_15
+    100038: wall_straight_16
+    100040: wall_straight_17
+    100042: wall_straight_18
+    100044: wall_straight_19
+    100046: wall_straight_2
+    100048: wall_straight_20
+    100050: wall_straight_21
+    100052: wall_straight_22
+    100054: wall_straight_23
+    100056: wall_straight_24
+    100058: wall_straight_25
+    100060: wall_straight_26
+    100062: wall_straight_27
+    100064: wall_straight_3
+    100066: wall_straight_34
+    100068: wall_straight_35
+    100070: wall_straight_5
+    100072: wall_straight_6
+    100074: wall_straight_7
+    400000: floor_square_32
+    400002: //RootNode
+    400004: roof_square_36
+    400006: roof_straight_33
+    400008: wall_corner_0
+    400010: wall_corner_28
+    400012: wall_corner_29
+    400014: wall_corner_30
+    400016: wall_corner_31
+    400018: wall_corner_4
+    400020: wall_corner_8
+    400022: wall_corner_9
+    400024: wall_straight_1
+    400026: wall_straight_10
+    400028: wall_straight_11
+    400030: wall_straight_12
+    400032: wall_straight_13
+    400034: wall_straight_14
+    400036: wall_straight_15
+    400038: wall_straight_16
+    400040: wall_straight_17
+    400042: wall_straight_18
+    400044: wall_straight_19
+    400046: wall_straight_2
+    400048: wall_straight_20
+    400050: wall_straight_21
+    400052: wall_straight_22
+    400054: wall_straight_23
+    400056: wall_straight_24
+    400058: wall_straight_25
+    400060: wall_straight_26
+    400062: wall_straight_27
+    400064: wall_straight_3
+    400066: wall_straight_34
+    400068: wall_straight_35
+    400070: wall_straight_5
+    400072: wall_straight_6
+    400074: wall_straight_7
+    2300000: floor_square_32
+    2300002: roof_square_36
+    2300004: roof_straight_33
+    2300006: wall_corner_0
+    2300008: wall_corner_28
+    2300010: wall_corner_29
+    2300012: wall_corner_30
+    2300014: wall_corner_31
+    2300016: wall_corner_4
+    2300018: wall_corner_8
+    2300020: wall_corner_9
+    2300022: wall_straight_1
+    2300024: wall_straight_10
+    2300026: wall_straight_11
+    2300028: wall_straight_12
+    2300030: wall_straight_13
+    2300032: wall_straight_14
+    2300034: wall_straight_15
+    2300036: wall_straight_16
+    2300038: wall_straight_17
+    2300040: wall_straight_18
+    2300042: wall_straight_19
+    2300044: wall_straight_2
+    2300046: wall_straight_20
+    2300048: wall_straight_21
+    2300050: wall_straight_22
+    2300052: wall_straight_23
+    2300054: wall_straight_24
+    2300056: wall_straight_25
+    2300058: wall_straight_26
+    2300060: wall_straight_27
+    2300062: wall_straight_3
+    2300064: wall_straight_34
+    2300066: wall_straight_35
+    2300068: wall_straight_5
+    2300070: wall_straight_6
+    2300072: wall_straight_7
+    3300000: floor_square_32
+    3300002: roof_square_36
+    3300004: roof_straight_33
+    3300006: wall_corner_0
+    3300008: wall_corner_28
+    3300010: wall_corner_29
+    3300012: wall_corner_30
+    3300014: wall_corner_31
+    3300016: wall_corner_4
+    3300018: wall_corner_8
+    3300020: wall_corner_9
+    3300022: wall_straight_1
+    3300024: wall_straight_10
+    3300026: wall_straight_11
+    3300028: wall_straight_12
+    3300030: wall_straight_13
+    3300032: wall_straight_14
+    3300034: wall_straight_15
+    3300036: wall_straight_16
+    3300038: wall_straight_17
+    3300040: wall_straight_18
+    3300042: wall_straight_19
+    3300044: wall_straight_2
+    3300046: wall_straight_20
+    3300048: wall_straight_21
+    3300050: wall_straight_22
+    3300052: wall_straight_23
+    3300054: wall_straight_24
+    3300056: wall_straight_25
+    3300058: wall_straight_26
+    3300060: wall_straight_27
+    3300062: wall_straight_3
+    3300064: wall_straight_34
+    3300066: wall_straight_35
+    3300068: wall_straight_5
+    3300070: wall_straight_6
+    3300072: wall_straight_7
+    4300000: wall_corner_0
+    4300002: wall_straight_1
+    4300004: wall_straight_2
+    4300006: wall_straight_3
+    4300008: wall_corner_4
+    4300010: wall_straight_5
+    4300012: wall_straight_6
+    4300014: wall_straight_7
+    4300016: wall_corner_8
+    4300018: wall_corner_9
+    4300020: wall_straight_10
+    4300022: wall_straight_11
+    4300024: wall_straight_12
+    4300026: wall_straight_13
+    4300028: wall_straight_14
+    4300030: wall_straight_15
+    4300032: wall_straight_16
+    4300034: wall_straight_17
+    4300036: wall_straight_18
+    4300038: wall_straight_19
+    4300040: wall_straight_20
+    4300042: wall_straight_21
+    4300044: wall_straight_22
+    4300046: wall_straight_23
+    4300048: wall_straight_24
+    4300050: wall_straight_25
+    4300052: wall_straight_26
+    4300054: wall_straight_27
+    4300056: wall_corner_28
+    4300058: wall_corner_29
+    4300060: wall_corner_30
+    4300062: wall_corner_31
+    4300064: floor_square_32
+    4300066: roof_straight_33
+    4300068: wall_straight_34
+    4300070: wall_straight_35
+    4300072: roof_square_36
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: customMaterial1
+    second: {fileID: 2100000, guid: 4ba0a32bfe544ad478a25701ca9bf74e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightStone
+    second: {fileID: 2100000, guid: 9081d59040154c64882d72bb7e40d30c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone
+    second: {fileID: 2100000, guid: 44328f12920f4fe4fa6d6648df611d4e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

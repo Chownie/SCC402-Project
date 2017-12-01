@@ -40,8 +40,11 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void BlinkControl() {
-		if(Input.GetKeyDown(KeyCode.JoystickButton0)) {
+		if(Input.GetKeyDown(KeyCode.JoystickButton0) || Input.GetKeyDown(KeyCode.F)) {
 			RaycastResult res = pointer.CurrentRaycastResult;
+			if(!res.isValid) {
+				return;
+			}
 			if(res.gameObject.tag == "floor") {
 				transform.position = new Vector3(res.worldPosition.x, StaticHeight, res.worldPosition.z);
 			}
@@ -58,6 +61,10 @@ public class PlayerController : MonoBehaviour {
 		Debug.Log("Toggling popups");
 		this.popup = !this.popup;
 		return this.popup;
+	}
+
+	public void Test() {
+		Debug.Log("TEST");
 	}
 
 	public void Show(string text, TranslationObject.ApplicableVerbs verbs) {

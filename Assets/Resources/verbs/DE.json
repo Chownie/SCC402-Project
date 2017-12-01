@@ -14,5 +14,10 @@
     "bauen",
     "sitzen",
     "kaufen"
+  ],
+  "Animal": [
+    "laufen",
+    "atmen",
+    "rennen"
   ]
 }
