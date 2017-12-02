@@ -25,8 +25,10 @@ public class PlayerController : MonoBehaviour {
 	[SerializeField]
 	private Text verbsText;
 
+	public string word;
+
 	// Resources
-	TranslationObject i18n;
+	private ObjectStore objectStore;
 
 	void SmoothControl() {
 		float distance = Input.GetAxis("Vertical"); 
@@ -52,14 +54,13 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void Start() {
-		i18n = new TranslationObject("DE");
+		this.objectStore = GameObject.Find("/Base_Scene").GetComponent<ObjectStore>();
 		cam = GetComponentInChildren<Camera>();
 		group = cam.GetComponentInChildren<CanvasGroup>();
 	}
 
-	public bool TogglePopup() {
-		Debug.Log("Toggling popups");
-		this.popup = !this.popup;
+	public bool Popup(bool popup) {
+		this.popup = popup;
 		return this.popup;
 	}
 
@@ -68,17 +69,18 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	public void Show(string text, TranslationObject.ApplicableVerbs verbs) {
+		wordText.text = this.objectStore.i18n.GetLocalizedString(text);
+		this.word = this.objectStore.i18n.GetLocalizedString(text);
+		genderText.text = this.objectStore.i18n.GetLocalizedGender(text);
+		verbsText.text = "";
+		foreach (string verb in this.objectStore.i18n.GetVerbs(verbs)) {
+			verbsText.text += verb + "\n";
+		}
+		verbsText.text = verbsText.text.TrimEnd("\n".ToCharArray());
 		if (!this.popup) {
 			Debug.Log("No popups for you!");
 			return;
 		}
-		wordText.text = i18n.GetLocalizedString(text);
-		genderText.text = i18n.GetLocalizedGender(text);
-		verbsText.text = "";
-		foreach (string verb in i18n.GetVerbs(verbs)) {
-			verbsText.text += verb + "\n";
-		}
-		verbsText.text = verbsText.text.TrimEnd("\n".ToCharArray());
 		group.alpha = 1;
 	}
 

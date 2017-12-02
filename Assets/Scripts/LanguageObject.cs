@@ -7,10 +7,11 @@ using UnityEngine.UI;
 public class LanguageObject : MonoBehaviour {
 	public TranslationObject.ApplicableVerbs verbs;
 	public string word = "";
-	private PlayerController player;
+	private ObjectStore objectStore;
 
 	void Start() {
-		player = GameObject.Find("Player").GetComponent<PlayerController>();
+		this.objectStore = GameObject.Find("/Base_Scene").GetComponent<ObjectStore>();
+		this.objectStore.RegisterLanguageObject(this);
 	}
 
 	public void getInputs() {
@@ -25,10 +26,10 @@ public class LanguageObject : MonoBehaviour {
 	}
 
 	public void FadeIn() {
-		player.Show(word, verbs);
+		objectStore.player.Show(word, verbs);
 	}
 
 	public void FadeOut() {
-		player.Hide();
+		objectStore.player.Hide();
 	}
 }
