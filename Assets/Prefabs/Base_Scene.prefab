@@ -6281,6 +6281,7 @@ MonoBehaviour:
   wordText: {fileID: 114358657235953864}
   genderText: {fileID: 114255439043122686}
   verbsText: {fileID: 114929684418107302}
+  word: 
 --- !u!114 &114098250785598842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6582,7 +6583,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 114969979460437352}
-          m_MethodName: getInputs
+          m_MethodName: FadeIn
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -7268,6 +7269,7 @@ MonoBehaviour:
   maxHeight: 6
   minHeight: 5.5
   speed: 0.009
+  testWordCount: 1
   Face: {fileID: 114041098958822944}
   Default: {fileID: 21300000, guid: 1a35b536ee903364b803d73e46d23863, type: 3}
   Left: {fileID: 21300000, guid: 7e77cffc59a45d3459936b8dc459861a, type: 3}
@@ -7276,7 +7278,6 @@ MonoBehaviour:
   Angry: {fileID: 21300000, guid: 4b719373190493f4db7fa875e22658a1, type: 3}
   Find: {fileID: 21300000, guid: e687f43758bd65943b2287cb8d148dbd, type: 3}
   textBox: {fileID: 114617612191438372}
-  interacting: 0
 --- !u!120 &120956102604911696
 LineRenderer:
   m_ObjectHideFlags: 1

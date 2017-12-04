@@ -917,11 +917,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Essen
-
-    Kochen
-
-    Brauchen'
+  m_Text: 
 --- !u!114 &114501801230408400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1132,9 +1128,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlMethod: 0
   Speed: 3
+  StaticHeight: 6
+  pointer: {fileID: 0}
   wordText: {fileID: 114951804411070234}
   genderText: {fileID: 114868400960313532}
   verbsText: {fileID: 114457042420691046}
+  word: 
 --- !u!114 &114868400960313532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1167,7 +1166,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: M
+  m_Text: 
 --- !u!114 &114917319091584864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1221,7 +1220,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Stuhl
+  m_Text: 
 --- !u!114 &114982127387565136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1686,7 +1685,7 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1669621235790478}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0

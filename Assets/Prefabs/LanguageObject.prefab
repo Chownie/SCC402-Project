@@ -66,8 +66,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   verbs: 0
-  gender: 
-  word: Nashorn
+  word: 
 --- !u!114 &114864241037498014
 MonoBehaviour:
   m_ObjectHideFlags: 1

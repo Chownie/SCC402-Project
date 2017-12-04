@@ -1,19 +1,131 @@
 {
+    "alarmclock": {
+        "gender": "m",
+        "name": "wecker"
+    },
     "apple": {
         "gender": "m",
         "name": "apfel"
+    },
+    "bed": {
+        "gender": "n",
+        "name": "bett"
+    },
+    "book": {
+        "gender": "n",
+        "name": "buch"
+    },
+    "buffalo": {
+        "gender": "m",
+        "name": "büffel"
+    },
+    "butterfly": {
+        "gender": "m",
+        "name": "schmetterling"
+    },
+    "chair": {
+        "gender": "m",
+        "name": "stuhl"
+    },
+    "crocodile": {
+        "gender": "n",
+        "name": "krokodil"
     },
     "cup": {
         "gender": "f",
         "name": "tasse"
     },
+    "deer": {
+        "gender": "pl",
+        "name": "hirsch"
+    },
     "desk": {
         "gender": "m",
         "name": "schreibtisch"
     },
+    "door": {
+        "gender": "f",
+        "name": "tür"
+    },
+    "doormat": {
+        "gender": "f",
+        "name": "fußmatte"
+    },
+    "eagle": {
+        "gender": "m",
+        "name": "adler"
+    },
+    "elephant": {
+        "gender": "m",
+        "name": "elefant"
+    },
+    "fireplace": {
+        "gender": "m",
+        "name": "kamin"
+    },
+    "flamingo": {
+        "gender": "m",
+        "name": "flamingo"
+    },
+    "fork": {
+        "gender": "n",
+        "name": "messer"
+    },
+    "frog": {
+        "gender": "m",
+        "name": "Frosch"
+    },
+    "fruit": {
+        "gender": "n",
+        "name": "obst"
+    },
+    "giraffe": {
+        "gender": "f",
+        "name": "giraffe"
+    },
+    "hedgehog": {
+        "gender": "m",
+        "name": "igel"
+    },
+    "knife": {
+        "gender": "f",
+        "name": "gabel"
+    },
+    "lamp": {
+        "gender": "f",
+        "name": "lampe"
+    },
+    "laptop": {
+        "gender": "m",
+        "name": "schlepptop"
+    },
+    "leopard": {
+        "gender": "m",
+        "name": "leopard"
+    },
+    "lion": {
+        "gender": "m",
+        "name": "l�we"
+    },
+    "mirror": {
+        "gender": "m",
+        "name": "spiegel"
+    },
+    "monkey": {
+        "gender": "m",
+        "name": "affe"
+    },
     "mug": {
         "gender": "m",
         "name": "becher"
+    },
+    "parrot": {
+        "gender": "m",
+        "name": "papagei"
+    },
+    "peacock": {
+        "gender": "m",
+        "name": "pfau"
     },
     "pen": {
         "gender": "m",
@@ -23,88 +135,60 @@
         "gender": "m",
         "name": "bleistift"
     },
+    "plate": {
+        "gender": "m",
+        "name": "teller"
+    },
+    "rhino": {
+        "gender": "n",
+        "name": "nashorn"
+    },
+    "rug": {
+        "gender": "m",
+        "name": "läufer"
+    },
+    "sink": {
+        "gender": "n",
+        "name": "waschbecken"
+    },
+    "snake": {
+        "gender": "f",
+        "name": "schlange"
+    },
+    "sofa": {
+        "gender": "n",
+        "name": "sofa"
+    },
     "table": {
         "gender": "m",
         "name": "tisch"
     },
-	"rhino": {
-        "gender": "n",
-        "name": "nashorn"
-    },
-	"flamingo": {
-        "gender": "m",
-        "name": "flamingo"
-    },
-	"zebra": {
-        "gender": "n",
-        "name": "zebra"
-    },
-	"elephant": {
-        "gender": "m",
-        "name": "elefant"
-    },
-	"giraffe": {
-        "gender": "f",
-        "name": "giraffe"
-    },
-	"buffalo": {
-        "gender": "m",
-        "name": "b�ffel"
-    },
-	"butterfly": {
-        "gender": "m",
-        "name": "schmetterling"
-    },
-	"deer": {
-        "gender": "pl",
-        "name": "hirsch"
-    },
-	"parrot": {
-        "gender": "m",
-        "name": "papagei"
-    },
-	"crocodile": {
-        "gender": "n",
-        "name": "krokodil"
-    },
-	"tiger": {
+    "tiger": {
         "gender": "m",
         "name": "tiger"
     },
-	"eagle": {
-        "gender": "m",
-        "name": "adler"
-    },
-	"snake": {
+    "toilet": {
         "gender": "f",
-        "name": "schlange"
+        "name": "toilette"
     },
-	"monkey": {
-        "gender": "m",
-        "name": "affe"
+    "toiletpaper": {
+        "gender": "n",
+        "name": "klosettpapier"
     },
-	"peacock": {
-        "gender": "m",
-        "name": "pfau"
-    },
-	"lion": {
-        "gender": "m",
-        "name": "l�we"
-    },
-	"leopard": {
-        "gender": "m",
-        "name": "leopard"
-    },
-	"hedgehog": {
-        "gender": "m",
-        "name": "igel"
-    },
-	"toucan": {
+    "toucan": {
         "gender": "m",
         "name": "tukan"
     },
-	"frog": {
-        "gender": "m",
-        "name": "Frosch"
+    "towel": {
+        "gender": "n",
+        "name": "badetuch"
+    },
+    "tv": {
+        "gender": "n",
+        "name": "fernsehen"
+    },
+    "zebra": {
+        "gender": "n",
+        "name": "zebra"
     }
 }
