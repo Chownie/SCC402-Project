@@ -26,5 +26,85 @@
     "table": {
         "gender": "m",
         "name": "tisch"
+    },
+	"rhino": {
+        "gender": "n",
+        "name": "nashorn"
+    },
+	"flamingo": {
+        "gender": "m",
+        "name": "flamingo"
+    },
+	"zebra": {
+        "gender": "n",
+        "name": "zebra"
+    },
+	"elephant": {
+        "gender": "m",
+        "name": "elefant"
+    },
+	"giraffe": {
+        "gender": "f",
+        "name": "giraffe"
+    },
+	"buffalo": {
+        "gender": "m",
+        "name": "büffel"
+    },
+	"butterfly": {
+        "gender": "m",
+        "name": "schmetterling"
+    },
+	"deer": {
+        "gender": "pl",
+        "name": "hirsch"
+    },
+	"parrot": {
+        "gender": "m",
+        "name": "papagei"
+    },
+	"crocodile": {
+        "gender": "n",
+        "name": "krokodil"
+    },
+	"tiger": {
+        "gender": "m",
+        "name": "tiger"
+    },
+	"eagle": {
+        "gender": "m",
+        "name": "adler"
+    },
+	"snake": {
+        "gender": "f",
+        "name": "schlange"
+    },
+	"monkey": {
+        "gender": "m",
+        "name": "affe"
+    },
+	"peacock": {
+        "gender": "m",
+        "name": "pfau"
+    },
+	"lion": {
+        "gender": "m",
+        "name": "löwe"
+    },
+	"leopard": {
+        "gender": "m",
+        "name": "leopard"
+    },
+	"hedgehog": {
+        "gender": "m",
+        "name": "igel"
+    },
+	"toucan": {
+        "gender": "m",
+        "name": "tukan"
+    },
+	"frog": {
+        "gender": "m",
+        "name": "Frosch"
     }
 }
