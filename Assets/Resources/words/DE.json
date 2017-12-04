@@ -147,6 +147,10 @@
         "gender": "m",
         "name": "läufer"
     },
+	"shower": {
+		"gender": "f",
+		"name": "dusche"
+	},
     "sink": {
         "gender": "n",
         "name": "waschbecken"
