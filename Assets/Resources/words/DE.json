@@ -102,6 +102,9 @@
 	"toucan": {
         "gender": "m",
         "name": "tukan"
+    },
+	"frog": {
+        "gender": "m",
+        "name": "Frosch"
     }
-
 }
