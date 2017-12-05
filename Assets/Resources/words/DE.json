@@ -15,6 +15,10 @@
         "gender": "n",
         "name": "buch"
     },
+    "bowl": {
+        "gender": "f",
+        "name": "schüssel"
+    },
     "buffalo": {
         "gender": "m",
         "name": "büffel"
@@ -83,6 +87,10 @@
         "gender": "f",
         "name": "giraffe"
     },
+    "grapes": {
+        "gender": "pl",
+        "name": "weinbeeren"
+    },
     "hedgehog": {
         "gender": "m",
         "name": "igel"
@@ -147,10 +155,10 @@
         "gender": "m",
         "name": "läufer"
     },
-	"shower": {
-		"gender": "f",
-		"name": "dusche"
-	},
+    "shower": {
+        "gender": "f",
+        "name": "dusche"
+    },
     "sink": {
         "gender": "n",
         "name": "waschbecken"
