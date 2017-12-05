@@ -86,6 +86,10 @@ public class PlayerController : MonoBehaviour {
 
 	public void Hide() {
 		group.alpha = 0;
+		wordText.text = "";
+		genderText.text = "";
+		verbsText.text = "";
+		word = "";
 	}
 
 	void Update () {

@@ -75,6 +75,10 @@ public class TutorController : MonoBehaviour {
 				return Confirming;
 			}
 
+			if(this.objectStore.player.word.Length == 0) {
+				return Hunting;
+			}
+
 			if(this.objectStore.player.word.Equals(this.objectStore.i18n.GetLocalizedString(this.target.word))) {
 				this.score += 1;
 				this.Face.sprite = this.Default;

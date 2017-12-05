@@ -67,6 +67,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   verbs: 0
   word: 
+  hyperColorMat: {fileID: 2100000, guid: 5a4ddb1ea2f969244ac76eeee3032bf0, type: 2}
+  hypercolorHighlight: 0
 --- !u!114 &114864241037498014
 MonoBehaviour:
   m_ObjectHideFlags: 1
