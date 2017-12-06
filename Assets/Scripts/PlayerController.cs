@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using System;
+using System.IO;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -27,6 +29,9 @@ public class PlayerController : MonoBehaviour {
 
 	public string word;
 
+	private string filePath;
+	private string RecordedMovementData = "";
+
 	// Resources
 	private ObjectStore objectStore;
 
@@ -34,11 +39,17 @@ public class PlayerController : MonoBehaviour {
 		float distance = Input.GetAxis("Vertical"); 
 		if (distance > 0.3) {
 			transform.position += (cam.transform.forward*Speed) * Time.deltaTime;
+			RecordedMovementData += transform.position.ToString();
 		}
 		if (distance < -0.3) {
 			transform.position -= (cam.transform.forward*Speed) * Time.deltaTime;
+			RecordedMovementData += transform.position.ToString();
 		}
 		transform.position = new Vector3(transform.position.x, StaticHeight, transform.position.z);
+	}
+
+	void OnApplicationQuit() {
+		File.WriteAllText(filePath, RecordedMovementData);
 	}
 
 	void BlinkControl() {
@@ -49,11 +60,14 @@ public class PlayerController : MonoBehaviour {
 			}
 			if(res.gameObject.tag == "floor") {
 				transform.position = new Vector3(res.worldPosition.x, StaticHeight, res.worldPosition.z);
+				RecordedMovementData += transform.position.ToString();
 			}
 		}
 	}
 
 	void Start() {
+		Int32 unixTimestamp = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+		filePath = Application.persistentDataPath + "/" + unixTimestamp.ToString() + ".csv";
 		this.objectStore = GameObject.Find("/Base_Scene").GetComponent<ObjectStore>();
 		cam = GetComponentInChildren<Camera>();
 		group = cam.GetComponentInChildren<CanvasGroup>();
