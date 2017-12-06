@@ -17,7 +17,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: defaultMat
-    second: {fileID: 2100000, guid: 6a3e028c0d2e28a449ce6224a0048c17, type: 2}
+    second: {fileID: 2100000, guid: b70d381d2304b404cb74b00f16bbaa5b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -48,7 +48,7 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
     importVisibility: 1
     importBlendShapes: 1
