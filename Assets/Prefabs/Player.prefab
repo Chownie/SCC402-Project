@@ -831,7 +831,7 @@ MonoBehaviour:
   controlMethod: 0
   Speed: 3
   StaticHeight: 6
-  pointer: {fileID: 0}
+  pointer: {fileID: 114849070509768660}
   wordText: {fileID: 114451474909798512}
   genderText: {fileID: 114827609133813876}
   verbsText: {fileID: 114215451490886382}
