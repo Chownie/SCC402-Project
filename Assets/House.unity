@@ -38,7 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+>>>>>>> 8e30cee0c602da9f39fa717d39d4756eb92e9eff
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2716,6 +2720,10 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967294
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 794475d54dc930549beaccd5fa6d8dd0, type: 3}
+      propertyPath: m_TagString
+      value: floor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 794475d54dc930549beaccd5fa6d8dd0, type: 3}
   m_IsPrefabParent: 0
@@ -5139,9 +5147,23 @@ Prefab:
       propertyPath: maxReticleDistance
       value: 20
       objectReference: {fileID: 0}
+        type: 2}
+      propertyPath: pointer
+      value: 
+      objectReference: {fileID: 1315957744}
+    - target: {fileID: 114174381963569582, guid: 6c92b355ad68ff14c80dc82e0586be54,
+        type: 2}
+      propertyPath: controlMethod
+      value: 0
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c92b355ad68ff14c80dc82e0586be54, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1315957744 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114849070509768660, guid: 6c92b355ad68ff14c80dc82e0586be54,
+    type: 2}
+  m_PrefabInternal: {fileID: 1315957743}
+  m_Script: {fileID: 11500000, guid: e7dcc90c2e60c4011896c7f21fc1f557, type: 3}
 --- !u!1 &1327874000
 GameObject:
   m_ObjectHideFlags: 0
@@ -7370,6 +7392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   words: []
   player: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1879584581
 GameObject:
   m_ObjectHideFlags: 0
@@ -7443,6 +7466,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1879584581}
   m_Mesh: {fileID: 4300010, guid: fecbfb1ad553db1498ffc17e249f8f1a, type: 3}
+=======
 --- !u!1001 &1895668269
 Prefab:
   m_ObjectHideFlags: 0

@@ -32,3 +32,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/GoogleVR/GVRVideoPlayer.unitypackage.meta
+Assets/GoogleVR/Scripts/InstantPreview/InstantPreview.apk.meta
+Assets/GoogleVR/GVRVideoPlayer.unitypackage.meta
+Assets/GoogleVR/Scripts/InstantPreview/InstantPreview.apk.meta
