@@ -90,7 +90,7 @@ public class TutorController : MonoBehaviour {
 	}
 
 	private void LogEvent(string marker, params string[] args) {
-		Int32 timeDelta = elapsedTime - (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+		Int32 timeDelta = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds - elapsedTime;
 		RecordedScoreData += String.Format("{0},{1},{2}\n", marker, timeDelta, String.Join(",", args));
 		Debug.Log(String.Format("{0},{1},{2}\n", marker, timeDelta, String.Join(",", args)));
 	}

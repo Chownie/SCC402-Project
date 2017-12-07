@@ -39,11 +39,11 @@ public class PlayerController : MonoBehaviour {
 		float distance = Input.GetAxis("Vertical"); 
 		if (distance > 0.3) {
 			transform.position += (cam.transform.forward*Speed) * Time.deltaTime;
-			RecordedMovementData += transform.position.ToString();
+			RecordedMovementData += transform.position.ToString() + "\n";
 		}
 		if (distance < -0.3) {
 			transform.position -= (cam.transform.forward*Speed) * Time.deltaTime;
-			RecordedMovementData += transform.position.ToString();
+			RecordedMovementData += transform.position.ToString() + "\n";
 		}
 		transform.position = new Vector3(transform.position.x, StaticHeight, transform.position.z);
 	}
@@ -61,7 +61,7 @@ public class PlayerController : MonoBehaviour {
 			}
 			if(res.gameObject.tag == "floor") {
 				transform.position = new Vector3(res.worldPosition.x, StaticHeight, res.worldPosition.z);
-				RecordedMovementData += transform.position.ToString();
+				RecordedMovementData += transform.position.ToString() + "\n";
 			}
 		}
 	}
@@ -93,7 +93,6 @@ public class PlayerController : MonoBehaviour {
 		}
 		verbsText.text = verbsText.text.TrimEnd("\n".ToCharArray());
 		if (!this.popup) {
-			Debug.Log("No popups for you!");
 			return;
 		}
 		group.alpha = 1;
