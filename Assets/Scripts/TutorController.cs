@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using System;
+using System.IO;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -34,39 +36,63 @@ public class TutorController : MonoBehaviour {
 
 	private ObjectStore objectStore;
 
+	private string filePath;
+	private string RecordedScoreData = "";
+	private Int32 elapsedTime = 0;
+
 	// Use this for initialization
 	void Start () {
 		this.objectStore = GameObject.Find("/Base_Scene").GetComponent<ObjectStore>();
 		this.state = Idle;
 		List<LanguageObject> tempTargets = objectStore.words;
 		for(int i = 0; i < testWordCount; i++) {
-			LanguageObject selection = tempTargets[Random.Range(0, tempTargets.Count)];
+			LanguageObject selection = tempTargets[UnityEngine.Random.Range(0, tempTargets.Count)];
 			tempTargets.Remove(selection);
 			targets.Add(selection);
 		}
+		Int32 unixTimestamp = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+		filePath = Application.persistentDataPath + "/SCORE_" + unixTimestamp.ToString() + ".csv";
 	}
 	
 	public void SetInteracting(bool input) {
 		this.interacting = input;
 	}
 
+	void OnApplicationQuit() {
+		File.WriteAllText(filePath, RecordedScoreData);
+	}
+
 	private TResult Confirming() {
 		this.textBox.text = "Do you want to quit?\n Select me again to quit";
 		if(Input.GetKeyDown(KeyCode.JoystickButton3) || Input.GetKeyDown(KeyCode.R)) {
 			if(this.interacting) {
+				LogEvent("QUIT");
 				this.Face.sprite = this.Angry;
 				return Idle;
 			}
+
+			if(this.objectStore.player.word.Length == 0) {
+				return Hunting;
+			}
+
 			if(this.objectStore.player.word.Equals(this.objectStore.i18n.GetLocalizedString(this.target.word))) {
+				LogEvent("SUCCESS", this.target.word);
 				this.score += 1;
 				this.Face.sprite = this.Default;
-				return Idle;
+				return PickingObject;
 			} else {
+				LogEvent("FAILURE", this.target.word, this.objectStore.player.word);
 				this.Face.sprite = this.Sad;
 				return PickingObject;
 			}
 		}
 		return Confirming;
+	}
+
+	private void LogEvent(string marker, params string[] args) {
+		Int32 timeDelta = elapsedTime - (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+		RecordedScoreData += String.Format("{0},{1},{2}\n", marker, timeDelta, String.Join(",", args));
+		Debug.Log(String.Format("{0},{1},{2}\n", marker, timeDelta, String.Join(",", args)));
 	}
 
 	private TResult Hunting() {
@@ -80,10 +106,12 @@ public class TutorController : MonoBehaviour {
 			}
 
 			if(this.objectStore.player.word.Equals(this.objectStore.i18n.GetLocalizedString(this.target.word))) {
+				LogEvent("SUCCESS", this.target.word);
 				this.score += 1;
 				this.Face.sprite = this.Default;
 				return PickingObject;
 			} else {
+				LogEvent("FAILURE", this.target.word, this.objectStore.player.word);
 				this.Face.sprite = this.Sad;
 				return PickingObject;
 			}
@@ -97,10 +125,12 @@ public class TutorController : MonoBehaviour {
 		Face.sprite = Find;
 		this.targets.Remove(this.target);
 		if(this.targets.Count == 0) {
+			LogEvent("FINISHED");
 			this.target = null;
 			return DoneAllObjects;
 		}
-		this.target = this.targets[Random.Range(0, this.targets.Count)];
+		this.target = this.targets[UnityEngine.Random.Range(0, this.targets.Count)];
+		elapsedTime = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
 		return Hunting;
 	}
 

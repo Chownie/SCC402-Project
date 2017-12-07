@@ -49,6 +49,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void OnApplicationQuit() {
+		Debug.Log(RecordedMovementData);
 		File.WriteAllText(filePath, RecordedMovementData);
 	}
 
@@ -67,7 +68,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Start() {
 		Int32 unixTimestamp = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
-		filePath = Application.persistentDataPath + "/" + unixTimestamp.ToString() + ".csv";
+		filePath = Application.persistentDataPath + "/MOVE_" + unixTimestamp.ToString() + ".csv";
 		this.objectStore = GameObject.Find("/Base_Scene").GetComponent<ObjectStore>();
 		cam = GetComponentInChildren<Camera>();
 		group = cam.GetComponentInChildren<CanvasGroup>();
