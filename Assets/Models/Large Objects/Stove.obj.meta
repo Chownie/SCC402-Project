@@ -1,0 +1,357 @@
+fileFormatVersion: 2
+guid: 184437af4095d544e913f9cbb05c8db2
+timeCreated: 1512660439
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box011
+    100002: Box012
+    100004: Box013
+    100006: Box014
+    100008: Box015
+    100010: Box016
+    100012: Box017
+    100014: Box018
+    100016: Box019
+    100018: Box020
+    100020: Cylinder016
+    100022: Cylinder017
+    100024: Cylinder018
+    100026: Cylinder019
+    100028: Cylinder020
+    100030: Cylinder021
+    100032: Cylinder022
+    100034: Cylinder023
+    100036: Cylinder024
+    100038: Cylinder025
+    100040: Cylinder026
+    100042: Cylinder027
+    100044: Object006
+    100046: Object007
+    100048: Object008
+    100050: Object009
+    100052: Object010
+    100054: //RootNode
+    400000: Box011
+    400002: Box012
+    400004: Box013
+    400006: Box014
+    400008: Box015
+    400010: Box016
+    400012: Box017
+    400014: Box018
+    400016: Box019
+    400018: Box020
+    400020: Cylinder016
+    400022: Cylinder017
+    400024: Cylinder018
+    400026: Cylinder019
+    400028: Cylinder020
+    400030: Cylinder021
+    400032: Cylinder022
+    400034: Cylinder023
+    400036: Cylinder024
+    400038: Cylinder025
+    400040: Cylinder026
+    400042: Cylinder027
+    400044: Object006
+    400046: Object007
+    400048: Object008
+    400050: Object009
+    400052: Object010
+    400054: //RootNode
+    2300000: Box011
+    2300002: Box012
+    2300004: Box013
+    2300006: Box014
+    2300008: Box015
+    2300010: Box016
+    2300012: Box017
+    2300014: Box018
+    2300016: Box019
+    2300018: Box020
+    2300020: Cylinder016
+    2300022: Cylinder017
+    2300024: Cylinder018
+    2300026: Cylinder019
+    2300028: Cylinder020
+    2300030: Cylinder021
+    2300032: Cylinder022
+    2300034: Cylinder023
+    2300036: Cylinder024
+    2300038: Cylinder025
+    2300040: Cylinder026
+    2300042: Cylinder027
+    2300044: Object006
+    2300046: Object007
+    2300048: Object008
+    2300050: Object009
+    2300052: Object010
+    3300000: Box011
+    3300002: Box012
+    3300004: Box013
+    3300006: Box014
+    3300008: Box015
+    3300010: Box016
+    3300012: Box017
+    3300014: Box018
+    3300016: Box019
+    3300018: Box020
+    3300020: Cylinder016
+    3300022: Cylinder017
+    3300024: Cylinder018
+    3300026: Cylinder019
+    3300028: Cylinder020
+    3300030: Cylinder021
+    3300032: Cylinder022
+    3300034: Cylinder023
+    3300036: Cylinder024
+    3300038: Cylinder025
+    3300040: Cylinder026
+    3300042: Cylinder027
+    3300044: Object006
+    3300046: Object007
+    3300048: Object008
+    3300050: Object009
+    3300052: Object010
+    4300000: Box011
+    4300002: Box012
+    4300004: Box013
+    4300006: Box014
+    4300008: Box015
+    4300010: Box016
+    4300012: Box017
+    4300014: Box018
+    4300016: Box019
+    4300018: Box020
+    4300020: Cylinder016
+    4300022: Cylinder017
+    4300024: Cylinder018
+    4300026: Cylinder019
+    4300028: Cylinder020
+    4300030: Cylinder021
+    4300032: Cylinder022
+    4300034: Cylinder023
+    4300036: Cylinder024
+    4300038: Cylinder025
+    4300040: Cylinder026
+    4300042: Cylinder027
+    4300044: Object006
+    4300046: Object007
+    4300048: Object008
+    4300050: Object009
+    4300052: Object010
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box011Mat
+    second: {fileID: 2100000, guid: 54d7aa617c308734dac92b95cd5570b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box012Mat
+    second: {fileID: 2100000, guid: 51ab92d9db4efc346a2b361577b4fed4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box013Mat
+    second: {fileID: 2100000, guid: d0204a698fa98234697d06ea181b5952, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box014Mat
+    second: {fileID: 2100000, guid: fa2555af234272d439a7c5897e91da5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box015Mat
+    second: {fileID: 2100000, guid: 6f87a201092141e42a5b3f131b82935f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box016Mat
+    second: {fileID: 2100000, guid: 53af6dbe26932274a82e6c2281cd9500, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box017Mat
+    second: {fileID: 2100000, guid: 1b5623b8c313366408f1bc312e195970, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box018Mat
+    second: {fileID: 2100000, guid: c9f5518e627c4a34da15ea3cfb962c4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box019Mat
+    second: {fileID: 2100000, guid: 27d6a9e0c90f0db4a8f5485b5902a8d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box020Mat
+    second: {fileID: 2100000, guid: d12a6fda25313a241836c8a6b9c9988d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder016Mat
+    second: {fileID: 2100000, guid: 7f7a1f955b6591347bee328ba84bb297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder017Mat
+    second: {fileID: 2100000, guid: 7763bb26654c0de488427b0108ac3f58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder018Mat
+    second: {fileID: 2100000, guid: 805695a580303714299dccf8154d01a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder019Mat
+    second: {fileID: 2100000, guid: 35a2ededb963ac94ca14ae54cbacca65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder020Mat
+    second: {fileID: 2100000, guid: c0282592fbdae31449cd592b6e7d9173, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder021Mat
+    second: {fileID: 2100000, guid: 185352b2ad97461469f2a48f479bbf5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder022Mat
+    second: {fileID: 2100000, guid: 1d942f3f5c980554fb2c602071892e85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder023Mat
+    second: {fileID: 2100000, guid: 89371b8668ec1124591d95445d1a7109, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder024Mat
+    second: {fileID: 2100000, guid: 826d1aa98604d9541ba86da5c78823a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder025Mat
+    second: {fileID: 2100000, guid: 634e1bf9d1a734c439d7857ea7fd5abe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder026Mat
+    second: {fileID: 2100000, guid: d772897b21760f74e94167a978d284d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder027Mat
+    second: {fileID: 2100000, guid: 624bc7c1459d8b444af4ac0520f3c1ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object006Mat
+    second: {fileID: 2100000, guid: 1b8f4b33068207f41addf20479edb34e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object007Mat
+    second: {fileID: 2100000, guid: 9d87fad1195bc6a40b633a13be08a8c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object008Mat
+    second: {fileID: 2100000, guid: 0e306db3a97d1724f9fd1d67b17203cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object009Mat
+    second: {fileID: 2100000, guid: 8f1d8e0b8842c654b99b82ef007f9dd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Object010Mat
+    second: {fileID: 2100000, guid: eb8a3765d673fce4f9877ff1d68d64bb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

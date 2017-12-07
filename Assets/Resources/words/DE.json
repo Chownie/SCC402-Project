@@ -75,6 +75,10 @@
         "gender": "n",
         "name": "messer"
     },
+    "fridge": {
+        "gender": "m",
+        "name": "kühlschrank"
+    },	
     "frog": {
         "gender": "m",
         "name": "Frosch"
@@ -171,6 +175,10 @@
         "gender": "n",
         "name": "sofa"
     },
+	"stove": {
+        "gender": "m",
+        "name": "herd"
+    },
     "table": {
         "gender": "m",
         "name": "tisch"
@@ -198,6 +206,10 @@
     "tv": {
         "gender": "n",
         "name": "fernsehen"
+    },
+    "wardrobe": {
+        "gender": "m",
+        "name": "kleiderschrank"
     },
     "zebra": {
         "gender": "n",
