@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour {
 
 	private Camera cam;
 	private CanvasGroup group;
+	private TutorController tutor;
 
 	[SerializeField]
 	private GvrReticlePointer pointer;
@@ -26,6 +27,11 @@ public class PlayerController : MonoBehaviour {
 	private Text genderText;
 	[SerializeField]
 	private Text verbsText;
+
+	[SerializeField]
+	private Text Score;
+	[SerializeField]
+	private Text Target;
 
 	public string word;
 
@@ -72,6 +78,7 @@ public class PlayerController : MonoBehaviour {
 		this.objectStore = GameObject.Find("/Base_Scene").GetComponent<ObjectStore>();
 		cam = GetComponentInChildren<Camera>();
 		group = cam.GetComponentInChildren<CanvasGroup>();
+		tutor = GameObject.Find("Tutor").GetComponent<TutorController>();
 	}
 
 	public bool Popup(bool popup) {
@@ -113,5 +120,11 @@ public class PlayerController : MonoBehaviour {
 		if(controlMethod == ControlMethod.Blink) {
 			BlinkControl();
 		}
+		if(tutor.target != null) {
+			Target.text = this.objectStore.i18n.GetLocalizedString(tutor.target.word);
+		} else {
+			Target.text = "None";
+		}
+		Score.text = tutor.score.ToString();
 	}
 }
