@@ -147,7 +147,7 @@ public class TutorController : MonoBehaviour {
 
 	private TResult Idle() {
 		this.objectStore.player.Popup(true);
-		if(Input.GetKeyDown(KeyCode.JoystickButton3) || Input.GetKeyDown(KeyCode.R) && this.interacting) {
+		if((Input.GetKeyDown(KeyCode.JoystickButton3) || Input.GetKeyDown(KeyCode.R)) && this.interacting) {
 			return PickingObject;
 		}
 		this.textBox.text = "Current score: " + this.score + "\nSelect me to try a memory game";

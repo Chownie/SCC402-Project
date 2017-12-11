@@ -2719,6 +2719,10 @@ Prefab:
       propertyPath: m_TagString
       value: floor
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 794475d54dc930549beaccd5fa6d8dd0, type: 3}
+      propertyPath: m_TagString
+      value: floor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 794475d54dc930549beaccd5fa6d8dd0, type: 3}
   m_IsPrefabParent: 0
@@ -6960,7 +6964,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4897190850361270, guid: 6c92b355ad68ff14c80dc82e0586be54, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4897190850361270, guid: 6c92b355ad68ff14c80dc82e0586be54, type: 2}
       propertyPath: m_LocalPosition.z
@@ -6989,7 +6993,27 @@ Prefab:
     - target: {fileID: 114174381963569582, guid: 6c92b355ad68ff14c80dc82e0586be54,
         type: 2}
       propertyPath: StaticHeight
-      value: 10
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114174381963569582, guid: 6c92b355ad68ff14c80dc82e0586be54,
+        type: 2}
+      propertyPath: word
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 225507081127409462, guid: 6c92b355ad68ff14c80dc82e0586be54,
+        type: 2}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114174381963569582, guid: 6c92b355ad68ff14c80dc82e0586be54,
+        type: 2}
+      propertyPath: controlMethod
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114174381963569582, guid: 6c92b355ad68ff14c80dc82e0586be54,
+        type: 2}
+      propertyPath: Speed
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c92b355ad68ff14c80dc82e0586be54, type: 2}
