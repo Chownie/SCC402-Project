@@ -474,5 +474,23 @@
     "zebra": {
         "gender": "n",
         "name": "zebra"
+<<<<<<< HEAD
     }
 }
+=======
+    },
+    "paper": {
+        "gender": "n",
+        "name": "papier"
+    },
+    "window": {
+        "gender": "n",
+        "name": "Fenster"
+    },
+    "shelf": {
+        "gender": "n",
+        "name": "Bücherregal"
+    }schlange
+	
+}
+>>>>>>> 7a83a8609f89bce0df3ee7ebd5706c41114cd33b

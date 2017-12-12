@@ -27,10 +27,10 @@ public class TutorController : MonoBehaviour {
 	private bool boost = false;
 	private TResult state;
 
-	private LanguageObject target;
+	public LanguageObject target;
 	private List<LanguageObject> targets = new List<LanguageObject>();
 
-	private int score = 0;
+	public int score = 0;
 
 	private bool interacting = false;
 
@@ -50,6 +50,7 @@ public class TutorController : MonoBehaviour {
 			tempTargets.Remove(selection);
 			targets.Add(selection);
 		}
+		Debug.Log(targets.Count);
 		Int32 unixTimestamp = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
 		filePath = Application.persistentDataPath + "/SCORE_" + unixTimestamp.ToString() + ".csv";
 	}
