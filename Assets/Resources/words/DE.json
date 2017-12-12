@@ -7,9 +7,41 @@
         "gender": "m",
         "name": "apfel"
     },
+    "avocado": {
+        "gender": "f",
+        "name": "avocado"
+    },
+    "bacon": {
+        "gender": "m",
+        "name": "speck"
+    },
+    "banana": {
+        "gender": "f",
+        "name": "banane"
+    },
+    "bagel": {
+        "gender": "m",
+        "name": "bagel"
+    },
+    "baguette": {
+        "gender": "n",
+        "name": "baguette"
+    },
+    "baseball cap": {
+        "gender": "f",
+        "name": "baseballkappe"
+    },
+    "basket": {
+        "gender": "m",
+        "name": "korb"
+    },
     "bed": {
         "gender": "n",
         "name": "bett"
+    },
+    "beer": {
+        "gender": "n",
+        "name": "bier"
     },
     "book": {
         "gender": "n",
@@ -19,17 +51,89 @@
         "gender": "f",
         "name": "schüssel"
     },
+    "bread": {
+        "gender": "n",
+        "name": "brot"
+    },
+    "broccoli": {
+        "gender": "m",
+        "name": "brokkoli"
+    },
+    "burger": {
+        "gender": "m",
+        "name": "Hamburger"
+    },
     "buffalo": {
         "gender": "m",
         "name": "büffel"
+    },
+    "butter": {
+        "gender": "f", 
+        "name": "butter"
     },
     "butterfly": {
         "gender": "m",
         "name": "schmetterling"
     },
+    "cabbage": {
+        "gender": "m",
+        "name": "kohl"
+    },
+    "cake": {
+        "gender": "m",
+        "name": "kuchen"
+    },
+    "carrot": {
+        "gender": "f",
+        "name": "karotte"
+    },
     "chair": {
         "gender": "m",
         "name": "stuhl"
+    },
+    "champagne": {
+        "gender": "m",
+        "name": "champagner"
+    },
+    "cherries": {
+        "gender": "pl",
+        "name": "kirschen"
+    },
+    "chicken": {
+        "gender": "n",
+        "name": "hähnchen"
+    },
+    "chocolate": {
+        "gender": "f",
+        "name": "schokolade"
+    },
+    "christmastree": {
+        "gender": "m",
+        "name": "weihnachtsbaum"
+    },
+    "clock": {
+        "gender": "f",
+        "name": "uhr"
+    },
+    "coffeeplant": {
+        "gender": "f",
+        "name": "kaffeepflanze"
+    },
+    "cookie": {
+        "gender": "n",
+        "name": "plätzchen"
+    },
+    "coconut": {
+        "gender":"f",
+        "name": "kokosnuss"
+    },
+    "corn": {
+        "gender": "m",
+        "name": "mais"
+    },
+    "cowboyhat": {
+        "gender": "m",
+        "name": "cowboyhut"
     },
     "crocodile": {
         "gender": "n",
@@ -47,6 +151,10 @@
         "gender": "m",
         "name": "schreibtisch"
     },
+    "donut": {
+        "gender": "m",
+        "name": "donut"
+    },
     "door": {
         "gender": "f",
         "name": "tür"
@@ -59,6 +167,10 @@
         "gender": "m",
         "name": "adler"
     },
+    "eggplant": {
+        "gender": "f",
+        "name": "aubergine"
+    },
     "elephant": {
         "gender": "m",
         "name": "elefant"
@@ -66,6 +178,10 @@
     "fireplace": {
         "gender": "m",
         "name": "kamin"
+    },
+    "fizzycan": {
+        "gender": "m",
+        "name": "sprudelnde dose"
     },
     "flamingo": {
         "gender": "m",
@@ -79,6 +195,10 @@
         "gender": "m",
         "name": "kühlschrank"
     },	
+    "fries": {
+        "gender": "pl",
+        "name": "pommes"
+    },
     "frog": {
         "gender": "m",
         "name": "Frosch"
@@ -99,6 +219,18 @@
         "gender": "m",
         "name": "igel"
     },
+    "hotdog": {
+        "gender": "m",
+        "name": "hotdog"
+    },
+    "juice": {
+        "gender": "m",
+        "name": "saft"
+    },
+    "kiwi": {
+        "gender": "f",
+        "name": "kiwi"
+    },
     "knife": {
         "gender": "f",
         "name": "gabel"
@@ -111,6 +243,10 @@
         "gender": "m",
         "name": "schlepptop"
     },
+    "lemon": {
+        "gender": "f",
+        "name": "zitrone"
+    },
     "leopard": {
         "gender": "m",
         "name": "leopard"
@@ -118,6 +254,22 @@
     "lion": {
         "gender": "m",
         "name": "l�we"
+    },
+    "lobster": {
+        "gender":"m", 
+        "name": "hummer"
+    },
+    "manikin": {
+        "gender": "n",
+        "name": "männchen"
+    },
+    "marshmallow": {
+        "gender": "m",
+        "name": "mäusespeck"
+    },
+    "milk": {
+        "gender": "f",
+        "name": "milch"
     },
     "mirror": {
         "gender": "m",
@@ -127,9 +279,29 @@
         "gender": "m",
         "name": "affe"
     },
+    "muffin": {
+        "gender": "m",
+        "name": "muffin"
+    },
     "mug": {
         "gender": "m",
         "name": "becher"
+    },
+    "mustard": {
+        "gender": "m" ,
+        "name": "senf"
+    },
+    "orange": {
+        "gender": "f",
+        "name": "orange"
+    },
+	"painting": {
+        "gender": "n",
+        "name": "gemälde"
+    },
+    "palm": {
+        "gender": "m",
+        "name": "palmbaum"
     },
     "parrot": {
         "gender": "m",
@@ -139,6 +311,14 @@
         "gender": "m",
         "name": "pfau"
     },
+    "pear": {
+        "gender": "f",
+        "name": "birne"
+    },
+    "peas": {
+        "gender": "pl",
+        "name": "erbsen"
+    },
     "pen": {
         "gender": "m",
         "name": "kuli"
@@ -147,9 +327,29 @@
         "gender": "m",
         "name": "bleistift"
     },
+    "pepper": {
+        "gender": "m",
+        "name": "pfeffer"
+    },
+    "pineapple": {
+        "gender": "f",
+        "name": "ananas"
+    },
+    "pizza": {
+        "gender": "f",
+        "name": "pizza"
+    },
     "plate": {
         "gender": "m",
         "name": "teller"
+    },
+    "potato": {
+        "gender": "f",
+        "name": "kartoffel"
+    },
+    "pretzel": {
+        "gender": "f",
+        "name": "brezel"
     },
     "rhino": {
         "gender": "n",
@@ -159,9 +359,25 @@
         "gender": "m",
         "name": "läufer"
     },
+    "shelf": {
+        "gender": "n",
+        "name": "regal"
+    },
+    "shoes": {
+        "gender": "pl",
+        "name": "schuhe"
+    },
     "shower": {
         "gender": "f",
         "name": "dusche"
+    },
+    "shirt": {
+        "gender": "n",
+        "name": "hemd"
+    },
+    "sandals": {
+        "gender": "pl",
+        "name": "sandalen"
     },
     "sink": {
         "gender": "n",
@@ -171,9 +387,21 @@
         "gender": "f",
         "name": "schlange"
     },
+      "snowman": {
+        "gender": "m",
+        "name": "schneemann"
+    },
     "sofa": {
         "gender": "n",
         "name": "sofa"
+    },
+    "steak": {
+        "gender": "n",
+        "name": "steak"
+    },
+    "strawberry": {
+        "gender": "f",
+        "name": "erdbeere"
     },
 	"stove": {
         "gender": "m",
@@ -195,6 +423,10 @@
         "gender": "n",
         "name": "klosettpapier"
     },
+    "tomato": {
+        "gender": "f",
+        "name": "tomate"
+    },
     "toucan": {
         "gender": "m",
         "name": "tukan"
@@ -203,6 +435,22 @@
         "gender": "n",
         "name": "badetuch"
     },
+    "till": {
+        "gender": "f",
+        "name": "kasse"
+    },
+    "turnip": {
+        "gender": "f",
+        "name": "steckrübe"
+    },
+    "trainers": {
+        "gender": "pl",
+        "name": "turnschuhe"
+    },
+    "trousers": {
+        "gender": "f",
+        "name": "hose"
+    },
     "tv": {
         "gender": "n",
         "name": "fernsehen"
@@ -210,6 +458,18 @@
     "wardrobe": {
         "gender": "m",
         "name": "kleiderschrank"
+    },
+    "water": {
+        "gender": "n",
+        "name": "wasser"
+    },
+    "watermelon": {
+        "gender": "f",
+        "name": "wassermelone"
+    },
+    "wine": {
+        "gender": "m",
+        "name": "wein"
     },
     "zebra": {
         "gender": "n",

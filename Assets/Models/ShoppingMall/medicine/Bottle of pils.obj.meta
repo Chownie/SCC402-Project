@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: cd8ad7eae2ae68d4788b3a2a39b7c21a
+timeCreated: 1513034577
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Capsule090
+    100004: Capsule091
+    100006: Capsule092
+    100008: Capsule093
+    100010: Capsule094
+    100012: Capsule095
+    100014: Capsule096
+    100016: Capsule097
+    100018: Capsule098
+    100020: Capsule099
+    100022: Capsule100
+    100024: Capsule101
+    100026: Capsule102
+    100028: Capsule103
+    100030: Capsule104
+    100032: Capsule105
+    100034: Capsule106
+    100036: Capsule107
+    100038: Capsule108
+    100040: Capsule109
+    100042: Capsule110
+    100044: Capsule111
+    100046: Capsule112
+    100048: Capsule113
+    100050: Capsule114
+    100052: Capsule115
+    100054: Capsule116
+    100056: Capsule117
+    100058: Capsule118
+    100060: Capsule119
+    100062: Capsule120
+    100064: Capsule121
+    100066: Capsule122
+    100068: Capsule123
+    100070: Capsule124
+    100072: Capsule125
+    100074: Capsule126
+    100076: Capsule127
+    100078: Capsule128
+    100080: Capsule129
+    100082: Capsule130
+    100084: Capsule131
+    100086: Capsule132
+    100088: Capsule133
+    100090: Capsule134
+    100092: Capsule135
+    100094: Capsule136
+    100096: Capsule137
+    100098: Capsule138
+    100100: Capsule139
+    100102: Capsule140
+    100104: Capsule141
+    100106: Capsule142
+    100108: Capsule143
+    100110: Capsule144
+    100112: Capsule145
+    100114: Capsule146
+    100116: Capsule147
+    100118: Capsule148
+    100120: Capsule149
+    100122: Capsule150
+    100124: Capsule151
+    100126: Capsule152
+    100128: Capsule153
+    100130: Capsule154
+    100132: Capsule155
+    100134: Capsule156
+    100136: Capsule157
+    100138: Capsule158
+    100140: Capsule159
+    100142: Capsule160
+    100144: Capsule161
+    100146: Capsule162
+    100148: Capsule163
+    100150: Cylinder004
+    100152: Cylinder005
+    400000: //RootNode
+    400002: Capsule090
+    400004: Capsule091
+    400006: Capsule092
+    400008: Capsule093
+    400010: Capsule094
+    400012: Capsule095
+    400014: Capsule096
+    400016: Capsule097
+    400018: Capsule098
+    400020: Capsule099
+    400022: Capsule100
+    400024: Capsule101
+    400026: Capsule102
+    400028: Capsule103
+    400030: Capsule104
+    400032: Capsule105
+    400034: Capsule106
+    400036: Capsule107
+    400038: Capsule108
+    400040: Capsule109
+    400042: Capsule110
+    400044: Capsule111
+    400046: Capsule112
+    400048: Capsule113
+    400050: Capsule114
+    400052: Capsule115
+    400054: Capsule116
+    400056: Capsule117
+    400058: Capsule118
+    400060: Capsule119
+    400062: Capsule120
+    400064: Capsule121
+    400066: Capsule122
+    400068: Capsule123
+    400070: Capsule124
+    400072: Capsule125
+    400074: Capsule126
+    400076: Capsule127
+    400078: Capsule128
+    400080: Capsule129
+    400082: Capsule130
+    400084: Capsule131
+    400086: Capsule132
+    400088: Capsule133
+    400090: Capsule134
+    400092: Capsule135
+    400094: Capsule136
+    400096: Capsule137
+    400098: Capsule138
+    400100: Capsule139
+    400102: Capsule140
+    400104: Capsule141
+    400106: Capsule142
+    400108: Capsule143
+    400110: Capsule144
+    400112: Capsule145
+    400114: Capsule146
+    400116: Capsule147
+    400118: Capsule148
+    400120: Capsule149
+    400122: Capsule150
+    400124: Capsule151
+    400126: Capsule152
+    400128: Capsule153
+    400130: Capsule154
+    400132: Capsule155
+    400134: Capsule156
+    400136: Capsule157
+    400138: Capsule158
+    400140: Capsule159
+    400142: Capsule160
+    400144: Capsule161
+    400146: Capsule162
+    400148: Capsule163
+    400150: Cylinder004
+    400152: Cylinder005
+    2300000: Capsule090
+    2300002: Capsule091
+    2300004: Capsule092
+    2300006: Capsule093
+    2300008: Capsule094
+    2300010: Capsule095
+    2300012: Capsule096
+    2300014: Capsule097
+    2300016: Capsule098
+    2300018: Capsule099
+    2300020: Capsule100
+    2300022: Capsule101
+    2300024: Capsule102
+    2300026: Capsule103
+    2300028: Capsule104
+    2300030: Capsule105
+    2300032: Capsule106
+    2300034: Capsule107
+    2300036: Capsule108
+    2300038: Capsule109
+    2300040: Capsule110
+    2300042: Capsule111
+    2300044: Capsule112
+    2300046: Capsule113
+    2300048: Capsule114
+    2300050: Capsule115
+    2300052: Capsule116
+    2300054: Capsule117
+    2300056: Capsule118
+    2300058: Capsule119
+    2300060: Capsule120
+    2300062: Capsule121
+    2300064: Capsule122
+    2300066: Capsule123
+    2300068: Capsule124
+    2300070: Capsule125
+    2300072: Capsule126
+    2300074: Capsule127
+    2300076: Capsule128
+    2300078: Capsule129
+    2300080: Capsule130
+    2300082: Capsule131
+    2300084: Capsule132
+    2300086: Capsule133
+    2300088: Capsule134
+    2300090: Capsule135
+    2300092: Capsule136
+    2300094: Capsule137
+    2300096: Capsule138
+    2300098: Capsule139
+    2300100: Capsule140
+    2300102: Capsule141
+    2300104: Capsule142
+    2300106: Capsule143
+    2300108: Capsule144
+    2300110: Capsule145
+    2300112: Capsule146
+    2300114: Capsule147
+    2300116: Capsule148
+    2300118: Capsule149
+    2300120: Capsule150
+    2300122: Capsule151
+    2300124: Capsule152
+    2300126: Capsule153
+    2300128: Capsule154
+    2300130: Capsule155
+    2300132: Capsule156
+    2300134: Capsule157
+    2300136: Capsule158
+    2300138: Capsule159
+    2300140: Capsule160
+    2300142: Capsule161
+    2300144: Capsule162
+    2300146: Capsule163
+    2300148: Cylinder004
+    2300150: Cylinder005
+    3300000: Capsule090
+    3300002: Capsule091
+    3300004: Capsule092
+    3300006: Capsule093
+    3300008: Capsule094
+    3300010: Capsule095
+    3300012: Capsule096
+    3300014: Capsule097
+    3300016: Capsule098
+    3300018: Capsule099
+    3300020: Capsule100
+    3300022: Capsule101
+    3300024: Capsule102
+    3300026: Capsule103
+    3300028: Capsule104
+    3300030: Capsule105
+    3300032: Capsule106
+    3300034: Capsule107
+    3300036: Capsule108
+    3300038: Capsule109
+    3300040: Capsule110
+    3300042: Capsule111
+    3300044: Capsule112
+    3300046: Capsule113
+    3300048: Capsule114
+    3300050: Capsule115
+    3300052: Capsule116
+    3300054: Capsule117
+    3300056: Capsule118
+    3300058: Capsule119
+    3300060: Capsule120
+    3300062: Capsule121
+    3300064: Capsule122
+    3300066: Capsule123
+    3300068: Capsule124
+    3300070: Capsule125
+    3300072: Capsule126
+    3300074: Capsule127
+    3300076: Capsule128
+    3300078: Capsule129
+    3300080: Capsule130
+    3300082: Capsule131
+    3300084: Capsule132
+    3300086: Capsule133
+    3300088: Capsule134
+    3300090: Capsule135
+    3300092: Capsule136
+    3300094: Capsule137
+    3300096: Capsule138
+    3300098: Capsule139
+    3300100: Capsule140
+    3300102: Capsule141
+    3300104: Capsule142
+    3300106: Capsule143
+    3300108: Capsule144
+    3300110: Capsule145
+    3300112: Capsule146
+    3300114: Capsule147
+    3300116: Capsule148
+    3300118: Capsule149
+    3300120: Capsule150
+    3300122: Capsule151
+    3300124: Capsule152
+    3300126: Capsule153
+    3300128: Capsule154
+    3300130: Capsule155
+    3300132: Capsule156
+    3300134: Capsule157
+    3300136: Capsule158
+    3300138: Capsule159
+    3300140: Capsule160
+    3300142: Capsule161
+    3300144: Capsule162
+    3300146: Capsule163
+    3300148: Cylinder004
+    3300150: Cylinder005
+    4300000: Capsule090
+    4300002: Capsule091
+    4300004: Capsule092
+    4300006: Capsule093
+    4300008: Capsule094
+    4300010: Capsule095
+    4300012: Capsule096
+    4300014: Capsule097
+    4300016: Capsule098
+    4300018: Capsule099
+    4300020: Capsule100
+    4300022: Capsule101
+    4300024: Capsule102
+    4300026: Capsule103
+    4300028: Capsule104
+    4300030: Capsule105
+    4300032: Capsule106
+    4300034: Capsule107
+    4300036: Capsule108
+    4300038: Capsule109
+    4300040: Capsule110
+    4300042: Capsule111
+    4300044: Capsule112
+    4300046: Capsule113
+    4300048: Capsule114
+    4300050: Capsule115
+    4300052: Capsule116
+    4300054: Capsule117
+    4300056: Capsule118
+    4300058: Capsule119
+    4300060: Capsule120
+    4300062: Capsule121
+    4300064: Capsule122
+    4300066: Capsule123
+    4300068: Capsule124
+    4300070: Capsule125
+    4300072: Capsule126
+    4300074: Capsule127
+    4300076: Capsule128
+    4300078: Capsule129
+    4300080: Capsule130
+    4300082: Capsule131
+    4300084: Capsule132
+    4300086: Capsule133
+    4300088: Capsule134
+    4300090: Capsule135
+    4300092: Capsule136
+    4300094: Capsule137
+    4300096: Capsule138
+    4300098: Capsule139
+    4300100: Capsule140
+    4300102: Capsule141
+    4300104: Capsule142
+    4300106: Capsule143
+    4300108: Capsule144
+    4300110: Capsule145
+    4300112: Capsule146
+    4300114: Capsule147
+    4300116: Capsule148
+    4300118: Capsule149
+    4300120: Capsule150
+    4300122: Capsule151
+    4300124: Capsule152
+    4300126: Capsule153
+    4300128: Capsule154
+    4300130: Capsule155
+    4300132: Capsule156
+    4300134: Capsule157
+    4300136: Capsule158
+    4300138: Capsule159
+    4300140: Capsule160
+    4300142: Capsule161
+    4300144: Capsule162
+    4300146: Capsule163
+    4300148: Cylinder004
+    4300150: Cylinder005
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule090Mat
+    second: {fileID: 2100000, guid: 9189bbc186b9e3f47aa86c7924043f5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule091Mat
+    second: {fileID: 2100000, guid: 173869fbdcc668646a491d4075695057, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule092Mat
+    second: {fileID: 2100000, guid: 384e3c97ccada7c40a91e763ee1a1a71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule093Mat
+    second: {fileID: 2100000, guid: 13ee75789e6a019458ea71871bd97943, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule094Mat
+    second: {fileID: 2100000, guid: c68b9b7936e38474fa5cb8ec47974828, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule095Mat
+    second: {fileID: 2100000, guid: 5b3c9d1a15069aa42b01a66b8967b9e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule096Mat
+    second: {fileID: 2100000, guid: 1113ed0eceb3fa044947d92ffb41bd4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule097Mat
+    second: {fileID: 2100000, guid: 88fcc740052514b46800d7ec10e948b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule098Mat
+    second: {fileID: 2100000, guid: 76f02ff59b3c3324cb570dfd18939bd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule099Mat
+    second: {fileID: 2100000, guid: bb3c395139a61734e8b6dd5401d6f9dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule100Mat
+    second: {fileID: 2100000, guid: 1618792cdfb769248bdf22217fc5574a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule101Mat
+    second: {fileID: 2100000, guid: 581af3355bbb82d428554eb0eb11aa4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule102Mat
+    second: {fileID: 2100000, guid: adc1fc3c11932af40a894da583cb7e8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule103Mat
+    second: {fileID: 2100000, guid: 19d03e1b746106843921b6edeb0ac60a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule104Mat
+    second: {fileID: 2100000, guid: 373355bbac63b1640a382077fb2a56b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule105Mat
+    second: {fileID: 2100000, guid: caa9e4d45d0739549a3b954a2074ccb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule106Mat
+    second: {fileID: 2100000, guid: cb33c02852dce5c42a384f8071bf298b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule107Mat
+    second: {fileID: 2100000, guid: 38c16c410a4a3f346a8b36d25992777a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule108Mat
+    second: {fileID: 2100000, guid: 37cac284e9542e542be0bfe6a3f4a488, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule109Mat
+    second: {fileID: 2100000, guid: 910a40ffe1530674b8ff030728128bab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule110Mat
+    second: {fileID: 2100000, guid: b19f08070d12b074d9d848ff414753df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule111Mat
+    second: {fileID: 2100000, guid: 5369f9bd763b5a54cbcda15c1123f069, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule112Mat
+    second: {fileID: 2100000, guid: 050af366ea3bb674ca9933a842e3221d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule113Mat
+    second: {fileID: 2100000, guid: 029d9be0b476b2241b31ae3ea3609fc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule114Mat
+    second: {fileID: 2100000, guid: 311b97b17258fb8408ed337502e34a9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule115Mat
+    second: {fileID: 2100000, guid: e0f7f2699a9067349af77d7cdcfedc9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule116Mat
+    second: {fileID: 2100000, guid: 099b13be25291dc40b7d55743b7d892a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule117Mat
+    second: {fileID: 2100000, guid: 925f956554b4fb14b98ac727089611e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule118Mat
+    second: {fileID: 2100000, guid: b59b8c2a13baf294fb665319d658475b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule119Mat
+    second: {fileID: 2100000, guid: 7c5798da5d5009c4e852ab44603f8a2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule120Mat
+    second: {fileID: 2100000, guid: f6e3f7a6f93c865478ac6a47d75c0d22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule121Mat
+    second: {fileID: 2100000, guid: fea8602b757fab34e9be9c81c595c944, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule122Mat
+    second: {fileID: 2100000, guid: 9b56a25fcb312844ab545136861fc047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule123Mat
+    second: {fileID: 2100000, guid: 15c9e72afbef5d4458c190d4bf59eff6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule124Mat
+    second: {fileID: 2100000, guid: f7dc18b09fe9f3e4f82e390802031ae5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule125Mat
+    second: {fileID: 2100000, guid: 4a413913ccd3bce4c929bbc63c9f9cdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule126Mat
+    second: {fileID: 2100000, guid: 7d5fa178943d504459e907eff3036c20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule127Mat
+    second: {fileID: 2100000, guid: e98c2d82f2edd9540a649929903f3bac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule128Mat
+    second: {fileID: 2100000, guid: 5fd406d8c1788c6409bfbb8fd0cdc0e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule129Mat
+    second: {fileID: 2100000, guid: be6ae66c0a21dd04cb84bd33a7be15f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule130Mat
+    second: {fileID: 2100000, guid: 6a92f77d07920cc4d9769e986854f507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule131Mat
+    second: {fileID: 2100000, guid: 7d0c8990ab0e79f4da5573f6eb3d2492, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule132Mat
+    second: {fileID: 2100000, guid: 435579f43305d384e9ca2785414c77e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule133Mat
+    second: {fileID: 2100000, guid: 3c94aa5c4d28bc446988106578ad87da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule134Mat
+    second: {fileID: 2100000, guid: 353c16a18aa2e9d43a672e254a1ca6c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule135Mat
+    second: {fileID: 2100000, guid: 998a68d19b507da4ca3b0b9867a1617a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule136Mat
+    second: {fileID: 2100000, guid: 8dd242ea652ba5847bf368e500ef9eb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule137Mat
+    second: {fileID: 2100000, guid: c2f877528ce7b6647b9bef17826b8521, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule138Mat
+    second: {fileID: 2100000, guid: d3fd909dd8a04974b8c1fa126d180a72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule139Mat
+    second: {fileID: 2100000, guid: e4bf5cc0a9d27a8439868d52dc0de32f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule140Mat
+    second: {fileID: 2100000, guid: d6f9875e476466849b639e712ec5e64d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule141Mat
+    second: {fileID: 2100000, guid: bf5ab5b6284593e4da8add2c9c9b151a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule142Mat
+    second: {fileID: 2100000, guid: e5d3273c077a8554c8889ef191172ef5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule143Mat
+    second: {fileID: 2100000, guid: b88ceb61c67b8b247b00875291c1f340, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule144Mat
+    second: {fileID: 2100000, guid: 37627b560acd8eb4d8b70b4374345d8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule145Mat
+    second: {fileID: 2100000, guid: c60edc7eb169a1d4b99aac37e2839c29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule146Mat
+    second: {fileID: 2100000, guid: 31821ae863a95034cb1c69a98ee0b9e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule147Mat
+    second: {fileID: 2100000, guid: caa37c546785d3247b37de2c77d5051c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule148Mat
+    second: {fileID: 2100000, guid: d69466a893bae0248a7244f3e4e8daa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule149Mat
+    second: {fileID: 2100000, guid: 68b194d8c76ac7b47aa07b4f17a80e04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule150Mat
+    second: {fileID: 2100000, guid: d2532e9998021e14b937be86aa7217f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule151Mat
+    second: {fileID: 2100000, guid: 65129c7efcbf96241bee479835524cae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule152Mat
+    second: {fileID: 2100000, guid: dbef00d1548242842bf2f0f2b97c3fab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule153Mat
+    second: {fileID: 2100000, guid: fc886a9a926d7f549bcbf01f3f1fb0cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule154Mat
+    second: {fileID: 2100000, guid: 20a932f4b1faad0428c0dd04f8724af3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule155Mat
+    second: {fileID: 2100000, guid: 9a30e13f51509d64f8ce5097ef314053, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule156Mat
+    second: {fileID: 2100000, guid: df2d7a9d84b9c90408f0cb41e3d3d40b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule157Mat
+    second: {fileID: 2100000, guid: 97d6e99adc394474b92b80d2f04107fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule158Mat
+    second: {fileID: 2100000, guid: 25316fef60d7ef04fa83b1360517bd35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule159Mat
+    second: {fileID: 2100000, guid: 16c420529085d814588e1a3fc8eea1d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule160Mat
+    second: {fileID: 2100000, guid: ae6eae7d67a774749a833ecc7e027483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule161Mat
+    second: {fileID: 2100000, guid: 426b9ddfec301704bbbe9e3fc57912fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule162Mat
+    second: {fileID: 2100000, guid: 2d88e7f1bfbe8074d952a6d0ee66562c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capsule163Mat
+    second: {fileID: 2100000, guid: 12518043ea5101346b8f4d5d9da6b58e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder004Mat
+    second: {fileID: 2100000, guid: 59cb4ef2a4829df4b9537adb1b9c94b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder005Mat
+    second: {fileID: 2100000, guid: 56be14180dab28e4eb7b8b9ac1a2e660, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
